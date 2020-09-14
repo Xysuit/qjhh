@@ -1,5 +1,5 @@
 {
-  "name": "Xysuit",
+  "name": "qjhh",
   "version": "1.0.0",
   "description": "Minimalistic doc generator with Vue component based layout system",
   "main": "lib/index.js",
@@ -15,7 +15,10 @@
     "release": "/bin/bash scripts/release.sh",
     "test": "node test/prepare.js && jest --config test/jest.config.js"
   },
-  
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:jasonandjay/qjhh.git"
+  },
   "keywords": [
     "documentation",
     "vue",
@@ -23,7 +26,10 @@
   ],
   "author": "Evan You",
   "license": "MIT",
-
+  "bugs": {
+    "url": "https://github.com/jasonandjay/qjhh/issues"
+  },
+  "homepage": "https://jasonandjay.github.io/qjhh/",
   "gitHooks": {
     "pre-commit": ""
   },
