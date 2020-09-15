@@ -1,6 +1,6 @@
 module.exports = {
   dest: './docs/',
-  base: '/style/',
+  base: '/qjhh/',
   markdown: {
     toc: { includeLevel: [2, 3] }
   },
@@ -25,7 +25,7 @@ module.exports = {
   serviceWorker: true,
   theme: 'vue',
   themeConfig: {
-    repo: 'jasonandjay/study',
+    repo: 'jasonandjay/qjhh',
 
     docsDir: 'src',
     editLinks: true,
@@ -33,7 +33,7 @@ module.exports = {
     locales: {
       '/': {
         label: '简体中文',
-        repo: 'jasonandjay/study',
+        repo: 'jasonandjay/qjhh',
       
         selectText: '选择语言',
         editLinkText: '帮助我们改进内容',
