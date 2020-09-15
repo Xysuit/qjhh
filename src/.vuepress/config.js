@@ -1,6 +1,6 @@
 module.exports = {
   dest: './docs/',
-  base: '/study/',
+  base: '/style/',
   markdown: {
     toc: { includeLevel: [2, 3] }
   },
