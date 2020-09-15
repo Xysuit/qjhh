@@ -11,7 +11,7 @@ Contributions are welcome!
 # fork repo
 
 # 克隆项目
-git clone git@github.com:jasonandjay/study.git
+git clone git@github.com:jasonandjay/qjhh.git
 ```
 
 ## Development
@@ -49,7 +49,7 @@ git push origin master
 设置source: master branch /docs folder
 
 # 查看网站
-在浏览器里输入 https://[your account name].github.io/study/
+在浏览器里输入 https://[your account name].github.io/qjhh/
 ```
 
 ## Contribute
