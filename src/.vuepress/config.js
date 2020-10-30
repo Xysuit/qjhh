@@ -75,7 +75,7 @@ module.exports = {
               { text: '面试必看', link: '/zh/interview/index.md'},
               { text: '阿里巴巴', link: '/zh/interview/ali.md'},
               { text: '三年前端', link: '/zh/interview/threeYear.md'},
-              // { text: '龙湖地产', link: '/zh/interview/longhu.md'}
+              { text: '龙湖地产', link: '/zh/interview/longhu.md'}
             ]
           },
           {
@@ -89,26 +89,26 @@ module.exports = {
               { text: 'React Hooks', link: '/zh/standard/Hooks.md'},
               { text: 'TypeScript 基础用法', link: '/zh/summary/typescript.md'},
               { text: 'TypeScript 高级用法', link: '/zh/summary/deepTypescript.md'},
-              // { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},
-              // { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
-              // { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
+              { text: '悦读管理后台', link: '/zh/interface/Yuedu.md'},
+              { text: 'BlackMarket', link: '/zh/interface/BlackMarket.md'},
+              { text: 'TouTiao', link: '/zh/interface/TouTiao.md'}
             ]
           },
-          // {
-          //   text: '语言',
-          //   items: [
-          //     { text: 'Chinese', link: '/language/chinese' },
-          //     { text: 'Japanese', link: '/language/japanese' }
-          //   ]
-          // },
-          // {
-          //   text: '配置参考',
-          //   link: '/config/'
-          // },
-          // {
-          //   text: '默认主题配置',
-          //   link: '/default-theme-config/'
-          // }
+          {
+            text: '语言',
+            items: [
+              { text: 'Chinese', link: '/language/chinese' },
+              { text: 'Japanese', link: '/language/japanese' }
+            ]
+          },
+          {
+            text: '配置参考',
+            link: '/config/'
+          },
+          {
+            text: '默认主题配置',
+            link: '/default-theme-config/'
+          }
         ],
         sidebar: {
           '/guide/': genSidebarConfig('指南'),
