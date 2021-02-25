@@ -43,15 +43,15 @@ module.exports = {
             text: '快速搭建开发环境',
             link: '/zh/standard/Start.md'
           },
-          // {
-            // text: '算法',
-            // link: '/zh/algorithm/Index.md',
-            // items: [
-            //   { text: '编程基本功', link: '/zh/algorithm/Charpter4.md'},
-            //   { text: '数学趣题(一)', link: '/zh/algorithm/Charpter5.md'},
-            //   { text: '数学趣题(二)', link: '/zh/algorithm/Charpter6.md'}
-            // ],
-          // },
+          {
+            text: '算法',
+            link: '/zh/algorithm/Index.md',
+            items: [
+              { text: '编程基本功', link: '/zh/algorithm/Charpter4.md'},
+              { text: '数学趣题(一)', link: '/zh/algorithm/Charpter5.md'},
+              { text: '数学趣题(二)', link: '/zh/algorithm/Charpter6.md'}
+            ],
+          },
           {
             text: '项目相关',
             items: [
@@ -69,15 +69,15 @@ module.exports = {
               
             ],
           },
-          // {
-          //   text: '经典面试题',
-          //   items: [
-          //     { text: '面试必看', link: '/zh/interview/index.md'},
-          //     { text: '阿里巴巴', link: '/zh/interview/ali.md'},
-          //     { text: '三年前端', link: '/zh/interview/threeYear.md'},
-          //     { text: '龙湖地产', link: '/zh/interview/longhu.md'}
-          //   ]
-          // },
+          {
+            text: '经典面试题',
+            items: [
+              { text: '面试必看1', link: '/zh/interview/index.md'},
+              { text: '面试必看2', link: '/zh/interview/ali.md'},
+              { text: '面试必看3', link: '/zh/interview/threeYear.md'},
+              { text: '面试必看4', link: '/zh/interview/longhu.md'}
+            ]
+          },
           {
             text: '知识点笔记',
             items: [
@@ -101,14 +101,14 @@ module.exports = {
           //     { text: 'Japanese', link: '/language/japanese' }
           //   ]
           // },
-          {
-            text: '配置参考',
-            link: '/config/'
-          },
-          {
-            text: '默认主题配置',
-            link: '/default-theme-config/'
-          }
+          // {
+          //   text: '配置参考',
+          //   link: '/config/'
+          // },
+          // {
+          //   text: '默认主题配置',
+          //   link: '/default-theme-config/'
+          // }
         ],
         sidebar: {
           // '/guide/': genSidebarConfig('指南'),
